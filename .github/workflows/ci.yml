@@ -32,7 +32,6 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
         image: dlckswn334/demo-app
-        tags: v1, latest
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
